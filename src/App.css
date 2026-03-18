@@ -1,0 +1,3 @@
+.container {
+    @apply max-w-[1130px] px-[20px] mx-auto box-border;
+} 
