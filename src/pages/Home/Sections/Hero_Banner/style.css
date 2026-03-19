@@ -1,0 +1,152 @@
+.hero-banner {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 4rem 2rem;
+}
+
+.hero-banner__container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.hero-banner__text {
+  background-color: #ffffff;
+  padding: 3.5rem 3rem;
+  border-radius: 1rem;
+  box-shadow: 0 18px 40px rgba(34, 60, 80, 0.08);
+  text-align: center;
+}
+
+.hero-banner__pretitle {
+  margin: 0;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: #5a5a5a;
+}
+
+.hero-banner__title {
+  margin: 1rem 0 1.25rem;
+  font-size: 2.5rem;
+  line-height: 1.1;
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: #222222;
+}
+
+.hero-banner__description {
+  margin: 0 0 2rem;
+  color: #4f4f4f;
+  line-height: 1.6;
+  font-size: 1rem;
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-banner__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2.5rem;
+  border: 1px solid #1a1a1a;
+  background-color: transparent;
+  color: #1a1a1a;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  border-radius: 999px;
+}
+
+.hero-banner__button:hover {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.hero-banner__media {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1.25rem;
+  background: linear-gradient(150deg, #cce5f5 0%, #e8f1f8 45%, #ffffff 100%);
+  padding: 3.5rem 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-banner__media-inner {
+  width: 100%;
+  max-width: 520px;
+  position: relative;
+}
+
+.hero-banner__image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 1rem;
+  object-fit: cover;
+  box-shadow: 0 18px 40px rgba(34, 60, 80, 0.08);
+}
+
+@media (max-width: 992px) {
+  .hero-banner {
+    padding: 3.5rem 1.5rem;
+  }
+
+  .hero-banner__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .hero-banner__text {
+    padding: 2.75rem 2rem;
+  }
+
+  .hero-banner__title {
+    font-size: 2.2rem;
+  }
+
+  .hero-banner__description {
+    font-size: 0.95rem;
+    max-width: 100%;
+  }
+
+  .hero-banner__media {
+    padding: 2.5rem 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-banner {
+    padding: 2.5rem 1rem;
+  }
+
+  .hero-banner__text {
+    padding: 2.25rem 1.75rem;
+  }
+
+  .hero-banner__title {
+    font-size: 1.8rem;
+  }
+
+  .hero-banner__pretitle {
+    font-size: 0.8rem;
+  }
+
+  .hero-banner__description {
+    font-size: 0.9rem;
+  }
+
+  .hero-banner__button {
+    width: 100%;
+    padding: 1rem 0;
+  }
+}
