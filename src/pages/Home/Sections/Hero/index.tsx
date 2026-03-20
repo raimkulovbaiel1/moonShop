@@ -1,37 +1,23 @@
-import React from 'react';
+import Hero from "../../../../components/Hero";
+import bg1 from "../../../../assets/icons/Hero/bg-1.webp";   
+
 import './style.css';
 
-const Hero: React.FC = () => {
+const HomeHero = () => {
   return (
-    <section className="hero">
-      <div className="hero-container">
-        <div className="hero-content">
-          <div className="hero-text">
-            <div className="hero-logo">
-              <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="30" cy="30" r="28" stroke="currentColor" strokeWidth="2"/>
-                <path d="M30 12 Q37.5 22.5 30 30 Q22.5 22.5 30 12" stroke="currentColor" strokeWidth="2"/>
-                <path d="M30 48 Q37.5 37.5 30 30 Q22.5 37.5 30 48" stroke="currentColor" strokeWidth="2"/>
-                <path d="M12 30 Q22.5 37.5 30 30 Q22.5 22.5 12 30" stroke="currentColor" strokeWidth="2"/>
-                <path d="M48 30 Q37.5 37.5 30 30 Q37.5 22.5 48 30" stroke="currentColor" strokeWidth="2"/>
-              </svg>
-            </div>
-            <p className="hero-subtitle">Handcrafted in Viet Nam since 1650</p>
-            <h1 className="hero-title">
-              BAT TRANG<br />DINNER SET
-            </h1>
-            <button className="hero-btn">SHOP NOW</button>
+    <Hero bgImage={bg1}>
+      <div className="container h-full flex items-end justify-center md:justify-start">
+        <div className="home-content">
+         <img src="src/assets/icons/Hero/Icon.svg" alt="" />
+          <div>
+            <h3>Handcrafted in Viet Nam since 1650</h3>
+            <h2>BAT TRANG DINNER SET</h2>
           </div>
-        </div>
-        <div className="hero-image">
-          <img 
-            src="https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=800&h=800&fit=crop" 
-            alt="Bat Trang Dinner Set"
-          />
+          <button>SHOP NOW</button>
         </div>
       </div>
-    </section>
+    </Hero>
   );
 };
 
-export default Hero;
+export default HomeHero;
