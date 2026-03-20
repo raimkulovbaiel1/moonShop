@@ -1,7 +1,6 @@
 import React from 'react';
 import './style.css';
-
-import heroImage from '../../../../assets/hero.png';
+//import image1 from '../../assets/images/Hero_Banner/Image1.png';
 
 const Hero_Banner: React.FC = () => {
   return (
@@ -23,7 +22,7 @@ const Hero_Banner: React.FC = () => {
           <div className="hero-banner__media-inner">
             <img
               className="hero-banner__image"
-              src={heroImage}
+              src="src/assets/images/Hero_Banner/Image1.png"
               alt="Christmas plates"
               loading="lazy"
             />
