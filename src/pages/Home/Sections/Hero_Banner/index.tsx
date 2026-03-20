@@ -12,7 +12,7 @@ const Hero_Banner: React.FC = () => {
           <h1 className="hero-banner__title">CHRISTMAS COLLECTION</h1>
           <p className="hero-banner__description">
             Lorem ipsum dolor sit amet consectetur adipiscing elit mattis sit
-            phasellus mollis sit aliquam sit nullam neque ultrices.
+            phasellus mollis sit aliquam nullam neque ultrices.
           </p>
           <button className="hero-banner__button" type="button">
             SHOP NOW
