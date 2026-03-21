@@ -1,4 +1,4 @@
-﻿import React from 'react';
+﻿import   React  from 'react';
 import './style.css';
 
 import image1 from '../../../../assets/images/Page2/Image.png';
