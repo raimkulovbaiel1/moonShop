@@ -43,7 +43,7 @@ const products = [
   },
   {
     src: image5,
-    title: 'MARIN WHITE DINNER PLATE',
+    title: 'MARIN WHITE DINNER ',
     price: '$49.00',
     description: 'Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit.',
   },
