@@ -35,7 +35,7 @@ const products = [
 ];
 const handleClick = () => {
   if (navigator.vibrate) {
-    navigator.vibrate(10);
+    navigator.vibrate(40);
   }
 
   console.log('Added to cart');
