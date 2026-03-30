@@ -35,14 +35,12 @@ const products = [
 ];
 const handleClick = () => {
   if (navigator.vibrate) {
-    navigator.vibrate(50);
+    navigator.vibrate(10);
   }
 
   console.log('Added to cart');
 };
 const index: React.FC = () => (
-
-
 
     <section className="container">
         <div className="page4__inner">
